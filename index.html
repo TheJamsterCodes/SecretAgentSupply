@@ -2,30 +2,34 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="Resources/style.css" />
 <link type="text/css" rel="stylesheet" href="Resources/reset.css" />
+<link type="text/css" rel="stylesheet" href="Resources/style.css" />
 <title>Secret Agent Supply Inc.</title>
 </head>
 
 <body>
 	
 <!-- Header -->
-  <header>
-	<img src="Resources/Images/logo.png" alt="Logo" />
-	Secret Agent Supply Inc.
+  <header class="supply">
+	<div class="container">
+	  <img src="Resources/Images/logo.png" alt="Logo">
+	  <span>SECRET AGENT SUPPLY INC.</span>
+	</div>
   </header>
 	
 <!-- Banner -->
-  <div>
-	<div>
-	  <h3>New Arrival</h3>
-	  <h1>Sport Bikes and Motorcycles</h1>
+  <div class="banner">
+	<div class="container">
+	  <div class="arrival">
+	    <h3>NEW ARRIVAL</h3>
+	    <h1>SPORT BIKES AND MOTORCYCLES</h1>
+	  </div>
 	</div>
   </div>
 	
 <!-- Navigation -->
   <nav>
-	<ul>
+	<ul class="container">
 	  <li>Eyewear</li>
 	  <li>Apparel</li>
 	  <li>Gadgets</li>
@@ -33,31 +37,61 @@
 	  <li>Classes</li>
 	  <li>Contact</li>
 	</ul>
+    <ul class="mobile-container">
+	  <li>Menu</li>
+	</ul>
   </nav>
 	
 <!--  Gallery -->
-  <div class="gallery-container">
+  <div class="container">
+	
+	<div class="product-gallery">
 	
 <!-- Exploding Pen -->
-	<div>
-	  <div>Exploding Pen</div>
-    </div>
+	  <div class="product">
+		<div class="product-image">
+		  <img src="Resources/Images/pen.png" alt="Exploding Pen" />
+		  <span>Exploding Pen</span>
+		</div>
+      </div>
 	  
 <!-- Cellular Watch -->
-	<div>
-	  <div>Cellular Watch</div>
-	</div>
+	  <div class="product">
+	    <div class="product-image">
+		  <img src="Resources/Images/watch.png" alt="Cellular Watch" />
+		  <span>Cellular Watch</span>
+		</div>
+	  </div>
 	
 <!-- Thermal Glasses -->
-	<div>
-	  <div>Thermal Glasses</div>
-	</div>
+	  <div class="product">
+	    <div class="product-image">
+		  <img src="Resources/Images/glasses.png" alt="Thermal Glasses" />
+	        <span>Thermal Glasses</span>
+		</div>
+	  </div>
+    </div>
+	  
+  </div>
 	  
 <!-- Location/Hours -->
-  <h4>Location</h4>
-  <h4>Hours</h4>
-
+  <div class="container">
+    <div class="secret-info">
+	  <div class="location">
+		<h4>Location</h4>
+		<h5>-47.346436, 84.32354</h5>  
+	  </div>
+	  <div class="hours">	
+    	<h4>Hours</h4>
+		<h5>0800 - 1800</h5>
+	  </div>	  
+	</div>	
   </div>
+	
+<!-- Footer -->
+  <footer>
+    <div class="container">Copyright Secret Agent Supply Inc.</div>
+  </footer>
 	
 </body>
 </html>
